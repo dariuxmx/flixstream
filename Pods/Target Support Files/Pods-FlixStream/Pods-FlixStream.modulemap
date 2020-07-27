@@ -1,0 +1,6 @@
+framework module Pods_FlixStream {
+  umbrella header "Pods-FlixStream-umbrella.h"
+
+  export *
+  module * { export * }
+}
