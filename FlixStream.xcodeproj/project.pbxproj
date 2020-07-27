@@ -7,9 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2CDEB45324CF45BF00F2CDAC /* HomeMoviesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CDEB45224CF45BF00F2CDAC /* HomeMoviesViewController.swift */; };
+		2CDEB45524CF497D00F2CDAC /* MovieResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CDEB45424CF497D00F2CDAC /* MovieResponse.swift */; };
+		2CDEB45724CF4A3300F2CDAC /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CDEB45624CF4A3300F2CDAC /* Movie.swift */; };
+		2CDEB45924CF4BA500F2CDAC /* MovieService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CDEB45824CF4BA500F2CDAC /* MovieService.swift */; };
+		2CDEB45A24CF4CF900F2CDAC /* ConfigVariables.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CDEB44624CF446C00F2CDAC /* ConfigVariables.swift */; };
+		2CDEB45C24CF625B00F2CDAC /* MovieErrors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CDEB45B24CF625B00F2CDAC /* MovieErrors.swift */; };
+		2CDEB45E24CF62A200F2CDAC /* MovieEndpoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CDEB45D24CF62A200F2CDAC /* MovieEndpoints.swift */; };
+		2CDEB46824CF6D8400F2CDAC /* ConfigVariables.swift in Resources */ = {isa = PBXBuildFile; fileRef = 2CDEB44624CF446C00F2CDAC /* ConfigVariables.swift */; };
+		2CDEB47424CF6E0900F2CDAC /* Comfortaa-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2CDEB46B24CF6E0900F2CDAC /* Comfortaa-SemiBold.ttf */; };
+		2CDEB47524CF6E0900F2CDAC /* AirbnbCereal-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2CDEB46C24CF6E0900F2CDAC /* AirbnbCereal-Light.ttf */; };
+		2CDEB47624CF6E0900F2CDAC /* Comfortaa-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2CDEB46D24CF6E0900F2CDAC /* Comfortaa-Light.ttf */; };
+		2CDEB47724CF6E0900F2CDAC /* Comfortaa-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2CDEB46E24CF6E0900F2CDAC /* Comfortaa-Regular.ttf */; };
+		2CDEB47824CF6E0900F2CDAC /* AirbnbCereal-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2CDEB46F24CF6E0900F2CDAC /* AirbnbCereal-Medium.ttf */; };
+		2CDEB47924CF6E0900F2CDAC /* Comfortaa-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2CDEB47024CF6E0900F2CDAC /* Comfortaa-Bold.ttf */; };
+		2CDEB47A24CF6E0900F2CDAC /* AirbnbCereal-Book.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2CDEB47124CF6E0900F2CDAC /* AirbnbCereal-Book.ttf */; };
+		2CDEB47B24CF6E0900F2CDAC /* Comfortaa-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2CDEB47224CF6E0900F2CDAC /* Comfortaa-Medium.ttf */; };
+		2CDEB47C24CF6E0900F2CDAC /* AirbnbCereal-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2CDEB47324CF6E0900F2CDAC /* AirbnbCereal-Bold.ttf */; };
+		2CDEB47E24CF6E5B00F2CDAC /* Config.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2CDEB47D24CF6E5B00F2CDAC /* Config.plist */; };
 		2CE1CB4024CF428A00F84918 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE1CB3F24CF428A00F84918 /* AppDelegate.swift */; };
 		2CE1CB4224CF428A00F84918 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE1CB4124CF428A00F84918 /* SceneDelegate.swift */; };
-		2CE1CB4424CF428A00F84918 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE1CB4324CF428A00F84918 /* FirstViewController.swift */; };
 		2CE1CB4624CF428A00F84918 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE1CB4524CF428A00F84918 /* SecondViewController.swift */; };
 		2CE1CB4924CF428A00F84918 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CE1CB4724CF428A00F84918 /* Main.storyboard */; };
 		2CE1CB4B24CF428D00F84918 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CE1CB4A24CF428D00F84918 /* Assets.xcassets */; };
@@ -20,10 +37,26 @@
 /* Begin PBXFileReference section */
 		0EE7821E76CE7804854D1BB3 /* Pods-FlixStream.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlixStream.debug.xcconfig"; path = "Target Support Files/Pods-FlixStream/Pods-FlixStream.debug.xcconfig"; sourceTree = "<group>"; };
 		1E3B60484BCB5F7803414534 /* Pods_FlixStream.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FlixStream.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CDEB44624CF446C00F2CDAC /* ConfigVariables.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigVariables.swift; sourceTree = "<group>"; };
+		2CDEB45224CF45BF00F2CDAC /* HomeMoviesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeMoviesViewController.swift; sourceTree = "<group>"; };
+		2CDEB45424CF497D00F2CDAC /* MovieResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieResponse.swift; sourceTree = "<group>"; };
+		2CDEB45624CF4A3300F2CDAC /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		2CDEB45824CF4BA500F2CDAC /* MovieService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieService.swift; sourceTree = "<group>"; };
+		2CDEB45B24CF625B00F2CDAC /* MovieErrors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieErrors.swift; sourceTree = "<group>"; };
+		2CDEB45D24CF62A200F2CDAC /* MovieEndpoints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieEndpoints.swift; sourceTree = "<group>"; };
+		2CDEB46B24CF6E0900F2CDAC /* Comfortaa-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Comfortaa-SemiBold.ttf"; sourceTree = "<group>"; };
+		2CDEB46C24CF6E0900F2CDAC /* AirbnbCereal-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AirbnbCereal-Light.ttf"; sourceTree = "<group>"; };
+		2CDEB46D24CF6E0900F2CDAC /* Comfortaa-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Comfortaa-Light.ttf"; sourceTree = "<group>"; };
+		2CDEB46E24CF6E0900F2CDAC /* Comfortaa-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Comfortaa-Regular.ttf"; sourceTree = "<group>"; };
+		2CDEB46F24CF6E0900F2CDAC /* AirbnbCereal-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AirbnbCereal-Medium.ttf"; sourceTree = "<group>"; };
+		2CDEB47024CF6E0900F2CDAC /* Comfortaa-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Comfortaa-Bold.ttf"; sourceTree = "<group>"; };
+		2CDEB47124CF6E0900F2CDAC /* AirbnbCereal-Book.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AirbnbCereal-Book.ttf"; sourceTree = "<group>"; };
+		2CDEB47224CF6E0900F2CDAC /* Comfortaa-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Comfortaa-Medium.ttf"; sourceTree = "<group>"; };
+		2CDEB47324CF6E0900F2CDAC /* AirbnbCereal-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AirbnbCereal-Bold.ttf"; sourceTree = "<group>"; };
+		2CDEB47D24CF6E5B00F2CDAC /* Config.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Config.plist; sourceTree = "<group>"; };
 		2CE1CB3C24CF428A00F84918 /* FlixStream.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlixStream.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CE1CB3F24CF428A00F84918 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2CE1CB4124CF428A00F84918 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		2CE1CB4324CF428A00F84918 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
 		2CE1CB4524CF428A00F84918 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		2CE1CB4824CF428A00F84918 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2CE1CB4A24CF428D00F84918 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -44,6 +77,80 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2CDEB43524CF43D000F2CDAC /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		2CDEB43624CF43DB00F2CDAC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2CDEB45624CF4A3300F2CDAC /* Movie.swift */,
+				2CDEB45424CF497D00F2CDAC /* MovieResponse.swift */,
+				2CDEB45B24CF625B00F2CDAC /* MovieErrors.swift */,
+				2CDEB45D24CF62A200F2CDAC /* MovieEndpoints.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		2CDEB43724CF43E200F2CDAC /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				2CDEB46A24CF6DFD00F2CDAC /* fonts */,
+				2CDEB44524CF446200F2CDAC /* Singletons */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		2CDEB43824CF43EE00F2CDAC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2CDEB43924CF43F800F2CDAC /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				2CDEB45224CF45BF00F2CDAC /* HomeMoviesViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		2CDEB43A24CF440000F2CDAC /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				2CDEB45824CF4BA500F2CDAC /* MovieService.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		2CDEB44524CF446200F2CDAC /* Singletons */ = {
+			isa = PBXGroup;
+			children = (
+				2CDEB44624CF446C00F2CDAC /* ConfigVariables.swift */,
+			);
+			path = Singletons;
+			sourceTree = "<group>";
+		};
+		2CDEB46A24CF6DFD00F2CDAC /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				2CDEB47324CF6E0900F2CDAC /* AirbnbCereal-Bold.ttf */,
+				2CDEB47124CF6E0900F2CDAC /* AirbnbCereal-Book.ttf */,
+				2CDEB46C24CF6E0900F2CDAC /* AirbnbCereal-Light.ttf */,
+				2CDEB46F24CF6E0900F2CDAC /* AirbnbCereal-Medium.ttf */,
+				2CDEB47024CF6E0900F2CDAC /* Comfortaa-Bold.ttf */,
+				2CDEB46D24CF6E0900F2CDAC /* Comfortaa-Light.ttf */,
+				2CDEB47224CF6E0900F2CDAC /* Comfortaa-Medium.ttf */,
+				2CDEB46E24CF6E0900F2CDAC /* Comfortaa-Regular.ttf */,
+				2CDEB46B24CF6E0900F2CDAC /* Comfortaa-SemiBold.ttf */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
 		2CE1CB3324CF428A00F84918 = {
 			isa = PBXGroup;
 			children = (
@@ -65,14 +172,20 @@
 		2CE1CB3E24CF428A00F84918 /* FlixStream */ = {
 			isa = PBXGroup;
 			children = (
+				2CDEB43A24CF440000F2CDAC /* Managers */,
+				2CDEB43924CF43F800F2CDAC /* Controllers */,
+				2CDEB43824CF43EE00F2CDAC /* Views */,
+				2CDEB43724CF43E200F2CDAC /* Utilities */,
+				2CDEB43624CF43DB00F2CDAC /* Models */,
+				2CDEB43524CF43D000F2CDAC /* Storyboards */,
 				2CE1CB3F24CF428A00F84918 /* AppDelegate.swift */,
 				2CE1CB4124CF428A00F84918 /* SceneDelegate.swift */,
-				2CE1CB4324CF428A00F84918 /* FirstViewController.swift */,
 				2CE1CB4524CF428A00F84918 /* SecondViewController.swift */,
 				2CE1CB4724CF428A00F84918 /* Main.storyboard */,
 				2CE1CB4A24CF428D00F84918 /* Assets.xcassets */,
 				2CE1CB4C24CF428D00F84918 /* LaunchScreen.storyboard */,
 				2CE1CB4F24CF428D00F84918 /* Info.plist */,
+				2CDEB47D24CF6E5B00F2CDAC /* Config.plist */,
 			);
 			path = FlixStream;
 			sourceTree = "<group>";
@@ -91,7 +204,6 @@
 				0EE7821E76CE7804854D1BB3 /* Pods-FlixStream.debug.xcconfig */,
 				39C590E16ED070BF2F698469 /* Pods-FlixStream.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -154,9 +266,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2CDEB47424CF6E0900F2CDAC /* Comfortaa-SemiBold.ttf in Resources */,
+				2CDEB47524CF6E0900F2CDAC /* AirbnbCereal-Light.ttf in Resources */,
+				2CDEB47C24CF6E0900F2CDAC /* AirbnbCereal-Bold.ttf in Resources */,
+				2CDEB47924CF6E0900F2CDAC /* Comfortaa-Bold.ttf in Resources */,
+				2CDEB47824CF6E0900F2CDAC /* AirbnbCereal-Medium.ttf in Resources */,
+				2CDEB46824CF6D8400F2CDAC /* ConfigVariables.swift in Resources */,
+				2CDEB47E24CF6E5B00F2CDAC /* Config.plist in Resources */,
 				2CE1CB4E24CF428D00F84918 /* LaunchScreen.storyboard in Resources */,
+				2CDEB47724CF6E0900F2CDAC /* Comfortaa-Regular.ttf in Resources */,
+				2CDEB47624CF6E0900F2CDAC /* Comfortaa-Light.ttf in Resources */,
 				2CE1CB4B24CF428D00F84918 /* Assets.xcassets in Resources */,
 				2CE1CB4924CF428A00F84918 /* Main.storyboard in Resources */,
+				2CDEB47B24CF6E0900F2CDAC /* Comfortaa-Medium.ttf in Resources */,
+				2CDEB47A24CF6E0900F2CDAC /* AirbnbCereal-Book.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -192,10 +315,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2CDEB45A24CF4CF900F2CDAC /* ConfigVariables.swift in Sources */,
+				2CDEB45524CF497D00F2CDAC /* MovieResponse.swift in Sources */,
+				2CDEB45324CF45BF00F2CDAC /* HomeMoviesViewController.swift in Sources */,
+				2CDEB45724CF4A3300F2CDAC /* Movie.swift in Sources */,
 				2CE1CB4624CF428A00F84918 /* SecondViewController.swift in Sources */,
-				2CE1CB4424CF428A00F84918 /* FirstViewController.swift in Sources */,
 				2CE1CB4024CF428A00F84918 /* AppDelegate.swift in Sources */,
 				2CE1CB4224CF428A00F84918 /* SceneDelegate.swift in Sources */,
+				2CDEB45E24CF62A200F2CDAC /* MovieEndpoints.swift in Sources */,
+				2CDEB45924CF4BA500F2CDAC /* MovieService.swift in Sources */,
+				2CDEB45C24CF625B00F2CDAC /* MovieErrors.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

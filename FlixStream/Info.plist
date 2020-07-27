@@ -70,5 +70,12 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>UIAppFonts</key>
+	<array>
+		<string>AirbnbCereal-Bold</string>
+		<string>AirbnbCereal-Book</string>
+		<string>AirbnbCereal-Light</string>
+		<string>AirbnbCereal-Medium</string>
+	</array>
 </dict>
 </plist>
