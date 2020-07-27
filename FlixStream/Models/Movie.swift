@@ -8,12 +8,12 @@
 
 import Foundation
 
-struct MovieResponse: Codable {
-    let page: Int
-    let totalPages: Int
-    let results: [Movie]
-    let totalResults: Int
-}
+//struct MovieResponse: Codable {
+//    let page: Int
+//    let totalPages: Int
+//    let results: [Movie]
+//    let totalResults: Int
+//}
 
 struct Movie: Codable {
     let id: Int

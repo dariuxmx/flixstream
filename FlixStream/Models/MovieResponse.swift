@@ -8,9 +8,9 @@
 
 import Foundation
 
-//public struct MovieResponse: Codable {
-//    public let page: Int
-//    public let totalPages: Int
-//    public let results: [Movie]
-//    public let totalResults: Int
-//}
+public struct MovieResponse: Codable {
+    let page: Int
+    let totalPages: Int
+    let results: [Movie]
+    let totalResults: Int
+}
