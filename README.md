@@ -1,6 +1,6 @@
 
 # FlixStream 🎬
-![Image of flixstream](http://g.recordit.co/BvVtXCITYv.gif)
+![flixstream](http://g.recordit.co/BvVtXCITYv.gif)
 
 ------------------------------------------
 # Setup the app
