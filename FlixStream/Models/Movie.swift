@@ -15,6 +15,8 @@ struct Movie: Codable {
     let releaseDate: Date
     let posterPath: String?
     let voteAverage: Double
+    let genreIds: [Int]?
+    let tagLine: String?
     var coverURL: URL {
         return URL(string: "https://image.tmdb.org/t/p/w500\(posterPath ?? "")")!
     }
@@ -34,4 +36,3 @@ struct Movie: Codable {
         return "\(Int(voteAverage * 10))"
     }
 }
-

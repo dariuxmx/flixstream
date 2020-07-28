@@ -7,7 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2C80E9E024CFCC7E00FEF03D /* MovieDetails.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C80E9DF24CFCC7E00FEF03D /* MovieDetails.storyboard */; };
+		2C80E9E224CFD1AE00FEF03D /* MovieDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C80E9E124CFD1AE00FEF03D /* MovieDetailsViewController.swift */; };
 		2C9F11E724CF837300652C19 /* MovieHomeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C9F11E624CF837300652C19 /* MovieHomeCell.swift */; };
+		2CAA4F2324D070A300D1767F /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 2CAA4F2224D070A300D1767F /* README.md */; };
 		2CDEB45324CF45BF00F2CDAC /* HomeMoviesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CDEB45224CF45BF00F2CDAC /* HomeMoviesViewController.swift */; };
 		2CDEB45524CF497D00F2CDAC /* MovieResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CDEB45424CF497D00F2CDAC /* MovieResponse.swift */; };
 		2CDEB45724CF4A3300F2CDAC /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CDEB45624CF4A3300F2CDAC /* Movie.swift */; };
@@ -38,7 +41,10 @@
 /* Begin PBXFileReference section */
 		0EE7821E76CE7804854D1BB3 /* Pods-FlixStream.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlixStream.debug.xcconfig"; path = "Target Support Files/Pods-FlixStream/Pods-FlixStream.debug.xcconfig"; sourceTree = "<group>"; };
 		1E3B60484BCB5F7803414534 /* Pods_FlixStream.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FlixStream.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C80E9DF24CFCC7E00FEF03D /* MovieDetails.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MovieDetails.storyboard; sourceTree = "<group>"; };
+		2C80E9E124CFD1AE00FEF03D /* MovieDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailsViewController.swift; sourceTree = "<group>"; };
 		2C9F11E624CF837300652C19 /* MovieHomeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieHomeCell.swift; sourceTree = "<group>"; };
+		2CAA4F2224D070A300D1767F /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		2CDEB44624CF446C00F2CDAC /* ConfigVariables.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigVariables.swift; sourceTree = "<group>"; };
 		2CDEB45224CF45BF00F2CDAC /* HomeMoviesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeMoviesViewController.swift; sourceTree = "<group>"; };
 		2CDEB45424CF497D00F2CDAC /* MovieResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieResponse.swift; sourceTree = "<group>"; };
@@ -82,6 +88,8 @@
 		2CDEB43524CF43D000F2CDAC /* Storyboards */ = {
 			isa = PBXGroup;
 			children = (
+				2CE1CB4724CF428A00F84918 /* Main.storyboard */,
+				2C80E9DF24CFCC7E00FEF03D /* MovieDetails.storyboard */,
 			);
 			path = Storyboards;
 			sourceTree = "<group>";
@@ -118,6 +126,7 @@
 			isa = PBXGroup;
 			children = (
 				2CDEB45224CF45BF00F2CDAC /* HomeMoviesViewController.swift */,
+				2C80E9E124CFD1AE00FEF03D /* MovieDetailsViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -157,6 +166,7 @@
 		2CE1CB3324CF428A00F84918 = {
 			isa = PBXGroup;
 			children = (
+				2CAA4F2224D070A300D1767F /* README.md */,
 				2CE1CB3E24CF428A00F84918 /* FlixStream */,
 				2CE1CB3D24CF428A00F84918 /* Products */,
 				AA3099B70113C9CA285AECB9 /* Pods */,
@@ -184,7 +194,6 @@
 				2CE1CB3F24CF428A00F84918 /* AppDelegate.swift */,
 				2CE1CB4124CF428A00F84918 /* SceneDelegate.swift */,
 				2CE1CB4524CF428A00F84918 /* SecondViewController.swift */,
-				2CE1CB4724CF428A00F84918 /* Main.storyboard */,
 				2CE1CB4A24CF428D00F84918 /* Assets.xcassets */,
 				2CE1CB4C24CF428D00F84918 /* LaunchScreen.storyboard */,
 				2CE1CB4F24CF428D00F84918 /* Info.plist */,
@@ -271,9 +280,11 @@
 			files = (
 				2CDEB47424CF6E0900F2CDAC /* Comfortaa-SemiBold.ttf in Resources */,
 				2CDEB47524CF6E0900F2CDAC /* AirbnbCereal-Light.ttf in Resources */,
+				2C80E9E024CFCC7E00FEF03D /* MovieDetails.storyboard in Resources */,
 				2CDEB47C24CF6E0900F2CDAC /* AirbnbCereal-Bold.ttf in Resources */,
 				2CDEB47924CF6E0900F2CDAC /* Comfortaa-Bold.ttf in Resources */,
 				2CDEB47824CF6E0900F2CDAC /* AirbnbCereal-Medium.ttf in Resources */,
+				2CAA4F2324D070A300D1767F /* README.md in Resources */,
 				2CDEB46824CF6D8400F2CDAC /* ConfigVariables.swift in Resources */,
 				2CDEB47E24CF6E5B00F2CDAC /* Config.plist in Resources */,
 				2CE1CB4E24CF428D00F84918 /* LaunchScreen.storyboard in Resources */,
@@ -326,6 +337,7 @@
 				2CE1CB4624CF428A00F84918 /* SecondViewController.swift in Sources */,
 				2CE1CB4024CF428A00F84918 /* AppDelegate.swift in Sources */,
 				2CE1CB4224CF428A00F84918 /* SceneDelegate.swift in Sources */,
+				2C80E9E224CFD1AE00FEF03D /* MovieDetailsViewController.swift in Sources */,
 				2CDEB45E24CF62A200F2CDAC /* MovieEndpoints.swift in Sources */,
 				2CDEB45924CF4BA500F2CDAC /* MovieService.swift in Sources */,
 				2CDEB45C24CF625B00F2CDAC /* MovieErrors.swift in Sources */,
@@ -483,7 +495,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = ca.habanerostudio.FlixStream;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -502,7 +514,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = ca.habanerostudio.FlixStream;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

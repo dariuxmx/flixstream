@@ -25,6 +25,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         //Custom UI
         UINavigationBar.appearance().barTintColor = .white
         UINavigationBar.appearance().tintColor = .white
+
+        //Transparency
+        UINavigationBar.appearance().setBackgroundImage(UIImage(), for: UIBarMetrics.default)
+        UINavigationBar.appearance().shadowImage = UIImage()
+        UINavigationBar.appearance().isTranslucent = true
         
         //Custom Font
         let attributes = [
@@ -34,13 +39,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
         let navigationBarAppearace = UINavigationBar.appearance()
         navigationBarAppearace.titleTextAttributes = attributes
-        navigationBarAppearace.tintColor = .white
-//        navigationBarAppearace.barTintColor = #colorLiteral(red: 0.2440274656, green: 0.6904171109, blue: 0.08412704617, alpha: 1)
-//        navigationBarAppearace.isTranslucent = false
-        
-        navigationBarAppearace.setBackgroundImage(UIImage(), for: UIBarMetrics.default)
-        navigationBarAppearace.shadowImage = UIImage()
-        navigationBarAppearace.isTranslucent = true
+
     }
 
     // MARK: UISceneSession Lifecycle

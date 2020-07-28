@@ -72,6 +72,40 @@ class MovieService {
         }.resume()
     }
     
+    func getMovieById(id: Int, successHandler: @escaping (_ response: Movie) -> Void, errorHandler: @escaping(_ error: Error) -> Void) {
+        guard let url = URL(string: "\(baseURL ?? "")movie/\(id)?api_key=\(apiKey)") else {
+            handleError(errorHandler: errorHandler, error: MovieErrors.invalidEndpoint)
+            return
+        }
+        
+        urlSession.dataTask(with: url) { (data, response, error) in
+            if error != nil {
+                self.handleError(errorHandler: errorHandler, error: MovieErrors.apiError)
+                return
+            }
+            
+            guard let response = response as? HTTPURLResponse, 200..<300 ~= response.statusCode else {
+                self.handleError(errorHandler: errorHandler, error: MovieErrors.invalidResponse)
+
+                return
+            }
+            
+            guard let data = data else {
+                self.handleError(errorHandler: errorHandler, error: MovieErrors.noData)
+                return
+            }
+            
+            do {
+                let movie = try self.jsonDecoder.decode(Movie.self, from: data)
+                successHandler(movie)
+            } catch {
+                self.handleError(errorHandler: errorHandler, error: MovieErrors.serializationError)
+            }
+        }.resume()
+    
+    }
+
+    
     
     //MARK: --> Handle error
     func handleError(errorHandler: @escaping(_ error: Error) -> Void, error: Error) {
