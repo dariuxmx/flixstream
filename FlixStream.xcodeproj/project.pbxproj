@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2C9F11E724CF837300652C19 /* MovieHomeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C9F11E624CF837300652C19 /* MovieHomeCell.swift */; };
 		2CDEB45324CF45BF00F2CDAC /* HomeMoviesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CDEB45224CF45BF00F2CDAC /* HomeMoviesViewController.swift */; };
 		2CDEB45524CF497D00F2CDAC /* MovieResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CDEB45424CF497D00F2CDAC /* MovieResponse.swift */; };
 		2CDEB45724CF4A3300F2CDAC /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CDEB45624CF4A3300F2CDAC /* Movie.swift */; };
@@ -37,6 +38,7 @@
 /* Begin PBXFileReference section */
 		0EE7821E76CE7804854D1BB3 /* Pods-FlixStream.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlixStream.debug.xcconfig"; path = "Target Support Files/Pods-FlixStream/Pods-FlixStream.debug.xcconfig"; sourceTree = "<group>"; };
 		1E3B60484BCB5F7803414534 /* Pods_FlixStream.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FlixStream.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C9F11E624CF837300652C19 /* MovieHomeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieHomeCell.swift; sourceTree = "<group>"; };
 		2CDEB44624CF446C00F2CDAC /* ConfigVariables.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigVariables.swift; sourceTree = "<group>"; };
 		2CDEB45224CF45BF00F2CDAC /* HomeMoviesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeMoviesViewController.swift; sourceTree = "<group>"; };
 		2CDEB45424CF497D00F2CDAC /* MovieResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieResponse.swift; sourceTree = "<group>"; };
@@ -107,6 +109,7 @@
 		2CDEB43824CF43EE00F2CDAC /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				2C9F11E624CF837300652C19 /* MovieHomeCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -317,6 +320,7 @@
 			files = (
 				2CDEB45A24CF4CF900F2CDAC /* ConfigVariables.swift in Sources */,
 				2CDEB45524CF497D00F2CDAC /* MovieResponse.swift in Sources */,
+				2C9F11E724CF837300652C19 /* MovieHomeCell.swift in Sources */,
 				2CDEB45324CF45BF00F2CDAC /* HomeMoviesViewController.swift in Sources */,
 				2CDEB45724CF4A3300F2CDAC /* Movie.swift in Sources */,
 				2CE1CB4624CF428A00F84918 /* SecondViewController.swift in Sources */,
