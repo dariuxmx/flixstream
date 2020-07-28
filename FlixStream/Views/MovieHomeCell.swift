@@ -14,5 +14,6 @@ class MovieHomeCell: UICollectionViewCell {
     @IBOutlet weak var movieName: UILabel!
     @IBOutlet weak var releaseDate: UILabel!
     @IBOutlet weak var rating: UILabel!
+    @IBOutlet weak var bgOverlayView: UILabel!
     
 }
