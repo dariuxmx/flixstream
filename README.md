@@ -1,9 +1,8 @@
 
 # FlixStream 🎬
-![](https://www.dropbox.com/s/84jcjaq1enfmsbw/flix-stream-1.jpg?dl=0)
 
-------------------------------------------
 # Setup the app
+You will need Xcode 11
 
 ## Config.plist file
 This file contains a serie of configurations for the app:
