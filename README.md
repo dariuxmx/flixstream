@@ -1,6 +1,6 @@
 
 # FlixStream 🎬
-![](https://www.dropbox.com/s/cf8kfngb10u3wtj/flix-stream-1.png?dl=0)
+![](https://www.dropbox.com/s/84jcjaq1enfmsbw/flix-stream-1.jpg?dl=0)
 
 ------------------------------------------
 # Setup the app
