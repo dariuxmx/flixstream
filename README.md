@@ -1,5 +1,6 @@
 
 # FlixStream 🎬
+![Image of flixstream](http://g.recordit.co/BvVtXCITYv.gif)
 
 ------------------------------------------
 # Setup the app
@@ -22,5 +23,6 @@ https://developers.themoviedb.org/3/getting-started/introduction
 
 Clone the repository, open FlixStream.xcworkspace. Hit Cmd + R, in case the app does not running go to your console in root project directory and run `pod install`
 
+If you want to run in device go to the Target in General tab selecting the project and then use your apple developer account. 
 
 ------------------------------------------
