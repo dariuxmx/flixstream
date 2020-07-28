@@ -68,12 +68,12 @@ class HomeMoviesViewController: UIViewController, UICollectionViewDataSource, UI
         
         let storyBoard = UIStoryboard(name: "MovieDetails", bundle: nil)
         let movieDetails = storyBoard.instantiateViewController(identifier: "MovieDetails") as! MovieDetailsViewController
-        movieDetails.movie = movies[index]
+        movieDetails.movieId = movies[index].id
         
         //Closure from movieDetails
-        movieDetails.updateMovieClosure = { success in
-            return success
-        }
+//        movieDetails.updateMovieClosure = { success in
+//            return success
+//        }
         self.navigationController?.pushViewController(movieDetails, animated: true)
     }
     
