@@ -28,13 +28,11 @@ class HomeMoviesViewController: UIViewController, UICollectionViewDataSource, UI
         //Movie service
         MovieService.dataService.getMovies(from: MovieEndPoint.playing, parameters: nil, successHandler: { (response) in
             let resultMovies = response.results
-//            print("Movie --> \(resultMovies)")
-    
+            // print("Movie --> \(resultMovies)")
             self.movies.append(contentsOf: resultMovies)
             OperationQueue.main.addOperation {
                 self.collectionViewMovies.reloadData()
             }
-            
         }) { (error) in
             print("Api loading error")
         }
@@ -63,8 +61,20 @@ class HomeMoviesViewController: UIViewController, UICollectionViewDataSource, UI
         cell.coverMovie.image = UIImage(data: data! as Data)
         cell.rating.text = "\(movie.voteAverage)"
         return cell
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        let index = indexPath.row
         
+        let storyBoard = UIStoryboard(name: "MovieDetails", bundle: nil)
+        let movieDetails = storyBoard.instantiateViewController(identifier: "MovieDetails") as! MovieDetailsViewController
+        movieDetails.movie = movies[index]
         
+        //Closure from movieDetails
+        movieDetails.updateMovieClosure = { success in
+            return success
+        }
+        self.navigationController?.pushViewController(movieDetails, animated: true)
     }
     
 
@@ -72,25 +82,19 @@ class HomeMoviesViewController: UIViewController, UICollectionViewDataSource, UI
 
 
 extension HomeMoviesViewController : UICollectionViewDelegateFlowLayout {
-    //1
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
-        //2
         let paddingSpace = sectionInsets.left * (CGFloat(itemsPerRow) + 1.0)
         let availableWidth = view.frame.width - paddingSpace
         let widthPerItem = availableWidth / itemsPerRow
 
         return CGSize(width: widthPerItem, height: 260)
-        
     }
     
-    //3
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, insetForSectionAt section: Int) -> UIEdgeInsets {
         return sectionInsets
     }
-    
-    // 4
+
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumLineSpacingForSectionAt section: Int) -> CGFloat {
         return sectionInsets.left
     }
-    
 }
