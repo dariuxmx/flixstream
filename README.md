@@ -1,5 +1,6 @@
 
 # FlixStream 🎬
+![](http://g.recordit.co/aXYaADfLii.gif)
 
 # Setup the app
 You will need Xcode 11
